@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">OpApp</string>
+    <string name="titleOpciones">Opciones</string>
+    <string name="opAreas">Áreas</string>
+    <string name="opVolumenes">Volúmenes</string>
+    <string name="opRealizadas">Operaciones Realizadas</string>
+
+    <string-array name="opciones">
+        <item>@string/opAreas</item>
+        <item>@string/opVolumenes</item>
+        <item>@string/opRealizadas</item>
+    </string-array>
+
+    <string-array name="areas">
+        <item>@string/titleCuadrado</item>
+        <item>@string/titleRectangulo</item>
+    </string-array>
+
+    <string-array name="volumenes">
+        <item>@string/titleCubo</item>
+        <item>@string/titleEsfera</item>
+    </string-array>
+
+    <string name="titleCuadrado">Cuadrado</string>
+    <string name="lados">Ingrese valor de los lados</string>
+
+    <string name="titleRectangulo">Rectángulo</string>
+    <string name="base">Ingrese el valor de la base</string>
+    <string name="altura">Ingrese el valor la altura</string>
+
+    <string name="titleEsfera">Esfera</string>
+    <string name="radio">Ingrese el valor del radio</string>
+
+    <string name="titleCubo">Cubo</string>
+    <string name="arista">Ingrese el valor de la arista</string>
+
+    <string name="calcular">Calcular</string>
+    <string name="borrar">Borrar</string>
+
+    <string name="operacion">Operacíon</string>
+    <string name="datos">Datos</string>
+    <string name="resultado">Resultado</string>
+</resources>
