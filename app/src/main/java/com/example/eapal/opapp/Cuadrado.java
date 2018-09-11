@@ -31,20 +31,16 @@ public class Cuadrado extends AppCompatActivity {
             lados = Double.parseDouble(txtLado.getText().toString());
             result = Metodos.areaCuadrado(lados);
 
-            Resultados r = new Resultados(getString(R.string.aCuadrado), getString(R.string.lados), result);
+            Resultados r = new Resultados(getString(R.string.aCuadrado), getString(R.string.datoLad) +lados, result);
             r.guardar();
 
-            res.setText(getString(R.string.mensajeCuad)+result);
-            borrar();
+            res.setText(getString(R.string.mensajeCuad) + String.format("%.2f",  result));
+            Metodos.borrar(campos);
         }
     }
 
     public void limpiar(View v){
-        borrar();
+        Metodos.borrar(campos);
         res.setText("");
-    }
-
-    public void borrar(){
-        txtLado.setText("");
     }
 }

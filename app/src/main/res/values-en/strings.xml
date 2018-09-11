@@ -29,4 +29,9 @@
     <string name="mensajeRect">Rectangle area is:</string>
     <string name="mensajeCub">Cube volume is:</string>
     <string name="mensajeEsf">Sphere volume is:</string>
+    <string name="datoLad">Sides:</string>
+    <string name="datoBas">Base:</string>
+    <string name="datoAlt">Height:</string>
+    <string name="datoRad">Radius:</string>
+    <string name="datoAri">Edge:</string>
 </resources>

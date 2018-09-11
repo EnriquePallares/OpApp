@@ -4,9 +4,9 @@
     <string name="opAreas">Áreas</string>
     <string name="opVolumenes">Volúmenes</string>
     <string name="opRealizadas">Operaciones Realizadas</string>
-    <string name="aCuadrado">Area de un cuadrado</string>
-    <string name="aRectangulo">Area de un rectangulo</string>
-    <string name="vCubo">Volumen de un cubo</string>
+    <string name="aCuadrado">Area del cuadrado</string>
+    <string name="aRectangulo">Area del rectangulo</string>
+    <string name="vCubo">Volumen del cubo</string>
     <string name="vEsfera">Volumen de una esfera</string>
     <string name="mensajeCuad">El area del cuadrado es:</string>
     <string name="mensajeRect">El area del rectángulo es:</string>
@@ -30,16 +30,21 @@
     </string-array>
 
     <string name="titleCuadrado">Cuadrado</string>
+    <string name="datoLad">Lados:</string>
     <string name="lados">Ingrese valor de los lados</string>
 
     <string name="titleRectangulo">Rectángulo</string>
+    <string name="datoBas">Base:</string>
+    <string name="datoAlt">Altura:</string>
     <string name="base">Ingrese el valor de la base</string>
     <string name="altura">Ingrese el valor la altura</string>
 
     <string name="titleEsfera">Esfera</string>
+    <string name="datoRad">Radio:</string>
     <string name="radio">Ingrese el valor del radio</string>
 
     <string name="titleCubo">Cubo</string>
+    <string name="datoAri">Arista:</string>
     <string name="arista">Ingrese el valor de la arista</string>
 
     <string name="calcular">Calcular</string>

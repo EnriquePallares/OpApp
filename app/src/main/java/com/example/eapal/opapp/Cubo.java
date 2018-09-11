@@ -31,21 +31,16 @@ public class Cubo extends AppCompatActivity {
             arista = Double.parseDouble(txtArista.getText().toString());
             result = Metodos.volumenCubo(arista);
 
-            Resultados r = new Resultados(getString(R.string.vCubo), getString(R.string.arista), result);
+            Resultados r = new Resultados(getString(R.string.vCubo), getString(R.string.datoAri) +arista, result);
             r.guardar();
 
-            res.setText(getString(R.string.mensajeCub)+result);
-            borrar();
+            res.setText(getString(R.string.mensajeCub) + String.format("%.2f",  result));
+            Metodos.borrar(campos);
         }
     }
 
     public void limpiar(View v){
-        borrar();
+        Metodos.borrar(campos);
         res.setText("");
     }
-
-    public void borrar(){
-        txtArista.setText("");
-    }
-
 }

@@ -31,20 +31,16 @@ public class Esfera extends AppCompatActivity {
             radio = Double.parseDouble(txtRadio.getText().toString());
             result = Metodos.volumenEsfera(radio);
 
-            Resultados r = new Resultados(getString(R.string.vEsfera), getString(R.string.radio), result);
+            Resultados r = new Resultados(getString(R.string.vEsfera), getString(R.string.datoRad) +radio, result);
             r.guardar();
 
-            res.setText(getString(R.string.mensajeEsf)+result);
-            borrar();
+            res.setText(getString(R.string.mensajeEsf) + String.format("%.2f",  result));
+            Metodos.borrar(campos);
         }
     }
 
     public void limpiar(View v){
-        borrar();
+        Metodos.borrar(campos);
         res.setText("");
-    }
-
-    public void borrar(){
-        txtRadio.setText("");
     }
 }

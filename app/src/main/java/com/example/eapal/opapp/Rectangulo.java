@@ -34,23 +34,17 @@ public class Rectangulo extends AppCompatActivity {
             altura = Double.parseDouble(txtAltura.getText().toString());
             result = Metodos.areaRectangulo(base, altura);
 
-            Resultados r = new Resultados(getString(R.string.aRectangulo), getString(R.string.base)
-                    + getString(R.string.altura), result);
+            Resultados r = new Resultados(getString(R.string.aRectangulo), getString(R.string.datoBas) + base + ", "
+                    + getString(R.string.datoAlt) + altura, result);
             r.guardar();
 
-            res.setText(getString(R.string.mensajeRect)+result);
-            borrar();
+            res.setText(getString(R.string.mensajeRect) + String.format("%.2f",  result));
+            Metodos.borrar(campos);
         }
     }
 
     public void limpiar(View v){
-        borrar();
+        Metodos.borrar(campos);
         res.setText("");
     }
-
-    public void borrar(){
-        txtBase.setText("");
-        txtAltura.setText("");
-    }
-
 }

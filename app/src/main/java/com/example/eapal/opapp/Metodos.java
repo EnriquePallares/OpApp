@@ -36,11 +36,10 @@ public class Metodos {
         return true;
     }
 
-    /*public static void borrar(ArrayList<EditText> campos, TextView res){
+    public static void borrar(ArrayList<EditText> campos){
         for (int i = 0; i < campos.size(); i++) {
             campos.get(i).setText("");
             campos.get(i).requestFocus();
         }
-        res.setText("");
-    }*/
+    }
 }
