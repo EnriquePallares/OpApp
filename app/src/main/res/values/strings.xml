@@ -4,6 +4,14 @@
     <string name="opAreas">Áreas</string>
     <string name="opVolumenes">Volúmenes</string>
     <string name="opRealizadas">Operaciones Realizadas</string>
+    <string name="aCuadrado">Area de un cuadrado</string>
+    <string name="aRectangulo">Area de un rectangulo</string>
+    <string name="vCubo">Volumen de un cubo</string>
+    <string name="vEsfera">Volumen de una esfera</string>
+    <string name="mensajeCuad">El area del cuadrado es:</string>
+    <string name="mensajeRect">El area del rectángulo es:</string>
+    <string name="mensajeCub">El volumen del cubo es:</string>
+    <string name="mensajeEsf">El volumen de la esfera es:</string>
 
     <string-array name="opciones">
         <item>@string/opAreas</item>
@@ -40,4 +48,7 @@
     <string name="operacion">Operacíon</string>
     <string name="datos">Datos</string>
     <string name="resultado">Resultado</string>
+
+    <string name="errVacio">No puede haber campos vacíos</string>
+    <string name="errCero">Ingrese un valor mayor a cero</string>
 </resources>

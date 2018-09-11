@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpApp</string>
+    <string name="titleOpciones">Options</string>
+    <string name="opAreas">Areas</string>
+    <string name="opVolumenes">Volumes</string>
+    <string name="opRealizadas">Operations</string>
+    <string name="titleCuadrado">Square</string>
+    <string name="lados">Enter sides value</string>
+    <string name="titleRectangulo">Rectangle</string>
+    <string name="base">Enter base value</string>
+    <string name="altura">Enter height value</string>
+    <string name="titleEsfera">Sphere</string>
+    <string name="radio">Enter radius value</string>
+    <string name="titleCubo">Cube</string>
+    <string name="arista">Enter edge value</string>
+    <string name="calcular">Calculate</string>
+    <string name="borrar">Clear</string>
+    <string name="operacion">Operation</string>
+    <string name="datos">Data</string>
+    <string name="resultado">Result</string>
+    <string name="errCero">Enter value greater than zero</string>
+    <string name="errVacio">There cannot be empty fields</string>
+    <string name="aCuadrado">Square Area</string>
+    <string name="aRectangulo">Rectangle Area</string>
+    <string name="vCubo">Cube Volume</string>
+    <string name="vEsfera">Sphere Volume</string>
+    <string name="mensajeCuad">Square area is:</string>
+    <string name="mensajeRect">Rectangle area is:</string>
+    <string name="mensajeCub">Cube volume is:</string>
+    <string name="mensajeEsf">Sphere volume is:</string>
+</resources>
